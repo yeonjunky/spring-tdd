@@ -1,28 +1,19 @@
 package com.orderservice.orderservice;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import com.orderservice.orderservice.product.AddProductRequest;
 import com.orderservice.orderservice.product.DiscountPolicy;
-import com.orderservice.orderservice.product.ProductAdapter;
-import com.orderservice.orderservice.product.ProductPort;
-import com.orderservice.orderservice.product.ProductRepository;
 import com.orderservice.orderservice.product.ProductService;
 
 
-
+@SpringBootTest
 class ProductServiceTest {
+    
+    @Autowired
     private ProductService productService;
-    private ProductPort productPort;
-    private ProductRepository productRepository;
-
-    @BeforeEach
-    void setUp() {
-        productRepository = new ProductRepository();
-        productPort = new ProductAdapter(productRepository);
-        productService = new ProductService(productPort);
-    }
 
     @Test
     void registerProduct() {

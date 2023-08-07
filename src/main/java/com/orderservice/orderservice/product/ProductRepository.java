@@ -3,6 +3,10 @@ package com.orderservice.orderservice.product;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Repository;
+
+
+@Repository
 public class ProductRepository {
     private Map<Long, Product> persistence = new HashMap<>();
     private Long sequence = 0L;
