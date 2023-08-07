@@ -1,12 +1,8 @@
-package com.orderservice.orderservice;
+package com.orderservice.orderservice.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import com.orderservice.orderservice.product.AddProductRequest;
-import com.orderservice.orderservice.product.DiscountPolicy;
-import com.orderservice.orderservice.product.ProductService;
 
 
 @SpringBootTest
