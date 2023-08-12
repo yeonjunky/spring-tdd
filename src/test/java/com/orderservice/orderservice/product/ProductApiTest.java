@@ -18,9 +18,9 @@ class ProductApiTest extends ApiTest {
 
     @Test
     void registerProduct() {
-        final AddProductRequest request = 상품등록요청_생성();
+        final var request = 상품등록요청_생성();
 
-        final ExtractableResponse<Response> response = 상품등록요청(request);
+        final var response = 상품등록요청(request);
 
         Assertions.assertThat(response.statusCode()).isEqualTo(HttpStatus.CREATED.value());
     }
