@@ -2,7 +2,9 @@ package com.orderservice.orderservice.order;
 
 import com.orderservice.orderservice.product.Product;
 import com.orderservice.orderservice.product.ProductRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderAdapter implements OrderPort {
     private final ProductRepository productRepository;
 

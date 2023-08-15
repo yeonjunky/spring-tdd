@@ -1,7 +1,9 @@
 package com.orderservice.orderservice.order;
 
 import com.orderservice.orderservice.product.Product;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderService {
     private final OrderPort orderPort;
 
