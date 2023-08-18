@@ -1,21 +1,18 @@
 package com.orderservice.orderservice.order;
 
 import com.orderservice.orderservice.ApiTest;
-import com.orderservice.orderservice.product.ProductService;
 import com.orderservice.orderservice.product.ProductSteps;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-@SpringBootTest
+
 public class OrderApiTest extends ApiTest {
 
     @Test
