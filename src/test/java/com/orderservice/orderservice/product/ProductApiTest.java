@@ -1,6 +1,7 @@
 package com.orderservice.orderservice.product;
 
 import com.orderservice.orderservice.ApiTest;
+import com.orderservice.orderservice.product.adapter.ProductRepository;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

@@ -2,6 +2,7 @@ package com.orderservice.orderservice.payment;
 
 import com.orderservice.orderservice.ApiTest;
 import com.orderservice.orderservice.order.OrderSteps;
+import com.orderservice.orderservice.payment.application.service.PaymentRequest;
 import com.orderservice.orderservice.product.ProductSteps;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

@@ -1,5 +1,6 @@
-package com.orderservice.orderservice.product;
+package com.orderservice.orderservice.product.application.service;
 
+import com.orderservice.orderservice.product.domain.DiscountPolicy;
 import org.springframework.util.Assert;
 
 

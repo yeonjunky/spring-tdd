@@ -1,9 +1,10 @@
-package com.orderservice.orderservice.order;
+package com.orderservice.orderservice.order.application.service;
 
-import com.orderservice.orderservice.product.Product;
+import com.orderservice.orderservice.order.domain.Order;
+import com.orderservice.orderservice.order.application.port.OrderPort;
+import com.orderservice.orderservice.product.domain.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

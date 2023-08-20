@@ -1,6 +1,6 @@
-package com.orderservice.orderservice.order;
+package com.orderservice.orderservice.order.domain;
 
-import com.orderservice.orderservice.product.Product;
+import com.orderservice.orderservice.product.domain.Product;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
